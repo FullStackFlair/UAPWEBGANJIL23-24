@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Program kasir Sederhana</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h3 style="text-align: center;">Program kasir Sederhana</h3>
+        <hr>
+        <table border="1" style="text-align: center;" id="daftarBarang">
+            <thead>
+                <th >Kode</th>
+                <th >Nama Barang</th>
+                <th >Harga</th>
+            </thead>
+            <tbody>
+                <td>001</td>
+                <td>Barang A</td>
+                <td>10.000</td>
+            </tbody>
+            <tbody>
+                <td>002</td>
+                <td>Barang B</td>
+                <td>20.000</td>
+            </tbody>
+            <tbody>
+                <td>003</td>
+                <td>Barang C</td>
+                <td>30.000</td>
+            </tbody>
+        </table>
+        <form>
+            <h3>Inputan User :</h3>
+            <table>
+                <tr>
+                    <td><input type="text" name="kodeBarang" placeholder="kode barang" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="qty" placeholder="Banyak Barang" required></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="beliBarang()">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <script src="UAP.js"></script>
+    </body>
+</html>
